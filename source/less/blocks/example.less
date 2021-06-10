@@ -1,0 +1,35 @@
+.example__wrapper {
+  padding: 0 20px;
+  @media (min-width: @tablet-width) {
+    padding: 0 30px;
+  }
+
+  @media (min-width: @decktop-width) {
+    margin: auto;
+    max-width: 1220px;
+  }
+}
+
+.example__statistics-wrapper {
+  @media (min-width: @tablet-width) {
+    display: flex;
+  }
+
+  @media (min-width: @decktop-width) {
+   display: block;
+  }
+}
+
+.example__statistics-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.example__cost {
+  @media (min-width: @tablet-width) {
+    margin-left: auto;
+  }
+}

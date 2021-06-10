@@ -1,5 +1,12 @@
-.contacts__wrapper {
+.additional {
+  @media (min-width: @decktop-width) {
+    display: flex;
+  }
+}
+
+.additional__wrapper {
   padding: 0 20px;
+
   @media (min-width: @tablet-width) {
     padding: 0 30px;
   }
@@ -10,12 +17,9 @@
   }
 }
 
-.contacts__adress-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
 
-.contacts__adress {
+.additional__list {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
