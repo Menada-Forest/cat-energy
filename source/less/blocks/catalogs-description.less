@@ -1,0 +1,33 @@
+.catalogs-description__wrapper {
+  padding: 0 20px;
+  @media (min-width: @tablet-width) {
+    padding: 0 30px;
+  }
+
+  @media (min-width: @decktop-width) {
+    margin: auto;
+    max-width: 1220px;
+  }
+}
+
+.catalogs-description__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: @decktop-width) {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 80px;
+  }
+}
+
+.catalogs-description__item {
+  background-color: @basic_grey;
+}
+
+.catalog-description__text {
+  font-family: "Arial";
+  font-size: 14px;
+  line-height: 18px;
+}
